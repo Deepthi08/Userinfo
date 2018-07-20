@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginDetails {
+	//this is my second commit
 	@FindBy(id="username") WebElement UserName;
 	@FindBy(id="password") WebElement Password;
 	@FindBy(id="btnsubmit") WebElement Login;
